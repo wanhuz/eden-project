@@ -3,7 +3,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     padding: 0;
-    margin: 0;
+    margin: 0 15%;
+    box-sizing: border-box;
 }
 
 header {
@@ -11,5 +12,72 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 15%;
+}
+
+/* Main-container */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container img  {
+    width: 600px;
+    height: 300px;
+}
+
+.sign-up {
+    width: 450px;
+}
+
+/*Random-info */
+
+.random-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thumbnail img {
+    height: 200px;
+    width: 150px;
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Quote */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.quote-container p {
+    margin-left: auto;
+}
+
+/* Call to action */
+
+.call-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.call-container button {
+    
+
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
