@@ -8,14 +8,13 @@ body {
 }
 
 header, .main-container, 
-.random-container, .quote-container,
-.call-container {
+.random-container, .quote-container {
     padding: 0 15%;
 }
 
-header, .main-container {
+header, .main-container, footer {
     background-color:#1F2937;
-    
+    color: white;   
 }
 
 header {
@@ -23,7 +22,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: white;   
+
 }
 
 .header-links a {
@@ -35,7 +34,6 @@ header {
 .main-container {
     display: flex;
     justify-content: space-between;
-    color: white;
 }
 
 .main-container img  {
@@ -53,6 +51,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2% 0;
 }
 
 .thumbnail  {
@@ -68,7 +67,7 @@ header {
 .thumbnail-container {
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 32px;
 }
 
 /*Quote */
@@ -79,6 +78,9 @@ header {
     justify-content: center;
     align-items: center;
     height: 400px;
+    margin: 7% 0%;
+    padding: 0 25%;
+    background-color: #E5E7EB;
 }
 
 .quote-container p {
@@ -90,16 +92,25 @@ header {
 .call-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 0;
-}
-
-.call-container h3 {
-    margin: 0;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #3882F6;
+    margin: 0 23%;
+    padding: 0 6%;
+    color: white;
 }
 
 .call-container button {
     align-self: center;
+}
+
+.call-container h3, 
+.call-container p {
+    margin: 0;
+}
+
+.text-area {
+    margin: 4% 0;
 }
 
 /* Footer */
@@ -108,4 +119,5 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
 }
