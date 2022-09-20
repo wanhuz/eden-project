@@ -145,3 +145,16 @@ footer {
     align-items: center;
     margin-top: 5%;
 }
+
+.signup-button {
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    padding: 5px 25px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: medium;
+}
+
+.sign-up .signup-button  {
+    border: 2px solid transparent;
+}
