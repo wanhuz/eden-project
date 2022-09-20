@@ -9,12 +9,12 @@ body {
 
 header, .main-container, 
 .random-container, .quote-container {
-    padding: 0 15%;
+    padding: 0 18%;
 }
 
 header, .main-container, footer {
     background-color:#1F2937;
-    color: white;   
+    color: #F9FAF8;  
 }
 
 header {
@@ -22,27 +22,50 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
 
+.header-links {
+    display: flex;
+    gap: 20px;
 }
 
 .header-links a {
     text-decoration: none;
-    color: white;   
+    color: #F9FAF8;   
+}
+
+.header h1 {
+    font-size: 24px;
 }
 
 /* Main-container */
 .main-container {
     display: flex;
     justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
 .main-container img  {
-    width: 600px;
-    height: 300px;
+    height: auto;
+    width: 500px;
+}
+
+.main-container h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container p {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .sign-up {
-    width: 450px;
+    width: 400px;
 }
 
 /*Random-info */
@@ -68,6 +91,7 @@ header {
     display: flex;
     flex-direction: row;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 /*Quote */
