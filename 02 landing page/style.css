@@ -115,10 +115,16 @@ header {
     padding: 0 25%;
     background-color: #E5E7EB;
     margin: 2% 0;
+    color: #1F2937;
 }
 
 .quote-container p {
     margin-left: auto;
+}
+
+.quote-container h2 {
+    font-weight:normal;
+    font-style: italic;
 }
 
 /* Call to action */
