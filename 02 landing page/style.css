@@ -5,6 +5,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 header, .main-container, 
@@ -42,6 +43,7 @@ header {
 .main-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 2%;
     padding-bottom: 3%;
 }
@@ -49,6 +51,7 @@ header {
 .main-container img  {
     height: auto;
     width: 500px;
+    object-fit: cover;
 }
 
 .main-container h1 {
@@ -74,7 +77,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2% 0;
+    height: 500px;
+    margin: 3% 0%;
 }
 
 .thumbnail  {
@@ -85,13 +89,19 @@ header {
 .thumbnail img {
     height: 100%;
     width:  100%;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .thumbnail-container {
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    gap: 64px;
     flex-wrap: wrap;
+}
+
+.thumbnail p {
+    text-align: center;
 }
 
 /*Quote */
@@ -102,9 +112,9 @@ header {
     justify-content: center;
     align-items: center;
     height: 400px;
-    margin: 7% 0%;
     padding: 0 25%;
     background-color: #E5E7EB;
+    margin: 2% 0;
 }
 
 .quote-container p {
@@ -119,7 +129,8 @@ header {
     justify-content: space-between;
     gap: 10px;
     background-color: #3882F6;
-    margin: 0 23%;
+    border-radius: 5px;
+    margin: 3% 23%;
     padding: 0 6%;
     color: white;
 }
